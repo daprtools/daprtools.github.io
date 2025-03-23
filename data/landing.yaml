@@ -1,0 +1,182 @@
+# Note: Template blocks require a 'weight' parameter so they're correctly ordered on the landing page
+
+# Hero
+hero:
+  enable: true
+  weight: 10
+  template: hero
+
+  backgroundImage:
+    path: "images/templates/hero"
+    filename:
+      desktop: "gradient-desktop.webp"
+      mobile: "gradient-mobile.webp"
+
+  badge:
+    text: v0.1.0
+    color: primary # primary, secondary, success, danger, warning, info, light, dark
+    pill: false # boolean
+    soft: true # boolean
+
+  # titleLogo:
+  #   path: "images/logos"
+  #   filename: "title_logo.png"
+  #   alt: "Lotus Docs Logo"
+  #   height: 80px
+
+  title: "DaprDesigner"
+  subtitle: Visually Model Your Microservices Architecture for Dapr.io
+
+  image:
+    path: "images" # path to image under configured assets directory. default 'images'
+    filename: "lotus_docs_screenshot.png" # filename of your hero image (including file extension)
+    alt: "Lotus Docs Screenshot" # Optional but recommended
+    boxShadow: true # default 'false' (excludes .svg images)
+    rounded: true # round the image corners? default 'false' (excludes .svg images)
+
+  ctaButton:
+    icon: rocket_launch
+    btnText: "Get Started"
+    url: "/docs/quickstart/#create-a-new-lotus-docs-site"
+  cta2Button:
+    icon: construction
+    btnText: "In Development"
+    url: "https://github.com/colinwilson/lotusdocs"
+
+  info: "Apache 2 Licensed"
+
+# Feature Grid
+featureGrid:
+  enable: true
+  weight: 20
+  template: feature grid
+
+  title: What is DaprDesigner?
+  subtitle: DaprDesigner is a powerful visual modeling tool built on Eclipse Sirius, designed to simplify the creation and management of microservices architectures using Dapr.io. It empowers architects and developers to visually design and configure their microservices, significantly reducing the complexity of Dapr integration.
+
+  items:
+    - title: Visual Microservices Modeling
+      icon: speed
+      description: Design your microservices architecture with an intuitive drag-and-drop interface.
+
+    - title: Dapr Component Configuration
+      icon: trending_up
+      description: Visually configure Dapr building blocks like state management, pub/sub, service invocation, and more.
+
+    - title: Accurate YAML Generation
+      icon: lock
+      description: Automatically generate precise Dapr component and application YAML files, ensuring consistency and reducing errors.
+
+    - title: Eclipse Sirius Integration
+      icon: settings
+      description: Leverages the robust and extensible Eclipse Sirius platform.
+
+    - title: Enhanced Architecture Understanding
+      icon: change_history
+      description: Provides a clear visual representation of your microservices dependencies and interactions.
+
+    - title: Rapid Prototyping
+      icon: dark_mode
+      description: Quickly iterate and refine your microservices designs.
+
+imageText:
+  enable: true
+  weight: 25
+  template: image text
+
+  title: Overcome Microservices Architecture Challenges with DaprDesigner
+  subtitle: Designing and developing microservices architectures presents unique challenges. DaprDesigner addresses these head-on, empowering you to build robust and scalable systems.
+
+  list:
+    - text: DaprDesigner provides a clear, visual representation, making it easier to grasp the overall architecture and identify potential bottlenecks.
+      icon: speed
+
+    - text: DaprDesigner enforces standardized configurations through visual modeling and automated YAML generation, minimizing inconsistencies.
+      icon: area_chart
+
+    - text: DaprDesigner's intuitive interface allows you to quickly create, modify, and test architectural changes, accelerating the development lifecycle.
+      icon: accessibility
+
+
+    - text: DaprDesigner automates YAML generation, ensuring accuracy and reducing the risk of human error.
+      icon: accessibility  
+
+    - text: DaprDesigner provides a visual abstraction, making it easier to understand and utilize Dapr's capabilities without deep technical expertise.
+      icon: accessibility  
+
+
+    - text: DaprDesigner provides a shared visual language, enabling architects and developers to communicate and collaborate more effectively.
+      icon: accessibility  
+
+    - text: DaprDesigner visually maps dependencies, allowing you to identify and address potential issues before they impact production.
+      icon: accessibility           
+
+  image:
+    path: "images/templates/single"
+    filename: "google_lighthouse_circle_v1.0.svg"
+    alt: "Google LightHouse 100% Illustration" # Optional but recommended
+
+  imgOrder:
+    desktop: 2
+    mobile: 1
+
+
+
+# Image compare
+imageCompare:
+  enable: true
+  weight: 30
+  template: image compare
+
+  title: Adopt a new paradigm... for the better
+  subtitle: Beyond Static Shapes... Build Dynamic, Deployable Microservices, Visually.
+
+  items:
+    - title: From static shapes to live models.
+      config: {
+        startingPoint: 50,
+        addCircle: true,
+        addCircleBlur: false,
+        showLabels: true,
+        labelOptions: {
+          before: 'Dark',
+          after: 'Light',
+          onHover: false
+        }
+      }
+      imagePath: "images/screenshots"
+      imageBefore: "lotusdocs_dark_v0.8.webp"
+      imageAfter: "lotusdocs_light_v0.8.webp"
+
+    - title: From meaningless labels to meaningful configurations
+      config: {
+        controlColor: "#3C4257",
+        startingPoint: 25,
+        addCircle: true,
+        addCircleBlur: false,
+        showLabels: true,
+        labelOptions: {
+          before: 'Inter',
+          after: 'Life Saver',
+          onHover: false
+        }
+      }
+      imagePath: "images/screenshots"
+      imageBefore: "lotusdocs_google_font_demo_inter_screenshot.webp"
+      imageAfter: "lotusdocs_google_font_demo_lifesavers_screenshot.webp"
+
+    - title: From hand-coded YAMLs to auto-generated ones
+      config: {
+        startingPoint: 25,
+        addCircle: true,
+        addCircleBlur: true,
+        showLabels: true,
+        labelOptions: {
+          before: 'Blue',
+          after: 'Cardinal',
+          onHover: false
+        }
+      }
+      imagePath: "images/screenshots"
+      imageBefore: "lotusdocs_blue_theme_colour.webp"
+      imageAfter: "lotusdocs_cardinal_theme_colour.webp"
