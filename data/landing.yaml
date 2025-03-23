@@ -56,27 +56,27 @@ featureGrid:
 
   items:
     - title: Visual Microservices Modeling
-      icon: speed
+      icon: polyline
       description: Design your microservices architecture with an intuitive drag-and-drop interface.
 
     - title: Dapr Component Configuration
-      icon: trending_up
+      icon: grid_view
       description: Visually configure Dapr building blocks like state management, pub/sub, service invocation, and more.
 
     - title: Accurate YAML Generation
-      icon: lock
+      icon: data_object
       description: Automatically generate precise Dapr component and application YAML files, ensuring consistency and reducing errors.
 
     - title: Eclipse Sirius Integration
-      icon: settings
+      icon: code
       description: Leverages the robust and extensible Eclipse Sirius platform.
 
     - title: Enhanced Architecture Understanding
-      icon: change_history
+      icon: architecture 
       description: Provides a clear visual representation of your microservices dependencies and interactions.
 
     - title: Rapid Prototyping
-      icon: dark_mode
+      icon: keyboard_double_arrow_right
       description: Quickly iterate and refine your microservices designs.
 
 imageText:
@@ -88,28 +88,21 @@ imageText:
   subtitle: Designing and developing microservices architectures presents unique challenges. DaprDesigner addresses these head-on, empowering you to build robust and scalable systems.
 
   list:
-    - text: DaprDesigner provides a clear, visual representation, making it easier to grasp the overall architecture and identify potential bottlenecks.
-      icon: speed
+    - text: Clear, visual representation, making it easier to grasp the overall architecture and identify potential bottlenecks.
+      icon: rocket
 
-    - text: DaprDesigner enforces standardized configurations through visual modeling and automated YAML generation, minimizing inconsistencies.
-      icon: area_chart
+    - text: Standardized configurations through visual modeling and automated YAML generation, minimizing inconsistencies.
+      icon: rocket
 
-    - text: DaprDesigner's intuitive interface allows you to quickly create, modify, and test architectural changes, accelerating the development lifecycle.
-      icon: accessibility
+    - text: Intuitive interface allows to quickly create, modify, and test architectural changes, accelerating the development lifecycle.
+      icon: rocket
 
+    - text: Visual abstraction, making it easier to understand and utilize Dapr's capabilities without deep technical expertise.
+      icon: rocket  
 
-    - text: DaprDesigner automates YAML generation, ensuring accuracy and reducing the risk of human error.
-      icon: accessibility  
-
-    - text: DaprDesigner provides a visual abstraction, making it easier to understand and utilize Dapr's capabilities without deep technical expertise.
-      icon: accessibility  
-
-
-    - text: DaprDesigner provides a shared visual language, enabling architects and developers to communicate and collaborate more effectively.
-      icon: accessibility  
-
-    - text: DaprDesigner visually maps dependencies, allowing you to identify and address potential issues before they impact production.
-      icon: accessibility           
+    - text: Shared visual language, enabling architects and developers to communicate and collaborate more effectively.
+      icon: rocket  
+         
 
   image:
     path: "images/templates/single"

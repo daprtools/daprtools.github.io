@@ -1,6 +1,6 @@
 baseURL = 'http://daprtools.github.io/'
 languageCode = 'en-us'
-title = 'DaprTools'
+title = 'DaprDesigner'
 contentDir = "content/en"
 
 [module]
@@ -10,3 +10,14 @@ contentDir = "content/en"
     [[module.imports]]
         path = "github.com/gohugoio/hugo-mod-bootstrap-scss/v5"
         disable = false
+
+
+[params]
+    
+    [params.footer]
+        copyright = "©:2025: RKVS Raman. Built with [**Lotus Docs**](https://github.com/colinwilson/lotusdocs)"
+
+
+    [params.social]
+        github = "daprtools"    
+  
