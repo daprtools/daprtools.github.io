@@ -15,7 +15,7 @@ contentDir = "content/en"
 [params]
     
     [params.footer]
-        copyright = "©:2025: RKVS Raman. Built with [**Lotus Docs**](https://github.com/colinwilson/lotusdocs)"
+        copyright = "Copyright ©:2025: [RKVS Raman](https://github.com/rkvsraman). Eclipse Sirius and Dapr are trademarks of [Eclipse](https://eclipse.dev) and [Dapr](https://dapr.io) foundations respectively. Site built with [Hugo](https://gohugo.io) and [Lotus Docs](https://github.com/colinwilson/lotusdocs). "
 
 
     [params.social]
