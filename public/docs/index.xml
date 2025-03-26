@@ -1,18 +1,67 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Documentation on DaprDesigner</title>
+    <title>Let&#39;s get you started..  on DaprDesigner</title>
     <link>http://localhost:1313/docs/</link>
-    <description>Recent content in Documentation on DaprDesigner</description>
+    <description>Recent content in Let&#39;s get you started..  on DaprDesigner</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="http://localhost:1313/docs/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Example Page1</title>
-      <link>http://localhost:1313/docs/example-page/</link>
+      <title>Overview</title>
+      <link>http://localhost:1313/docs/overview/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/docs/example-page/</guid>
-      <description></description>
+      <guid>http://localhost:1313/docs/overview/</guid>
+      <description>&lt;h3 id=&#34;whats-daprdesigner&#34;&gt;What&amp;rsquo;s DaprDesigner? &lt;a href=&#34;#whats-daprdesigner&#34; class=&#34;anchor&#34; aria-hidden=&#34;true&#34;&gt;&lt;i class=&#34;material-icons align-middle&#34;&gt;link&lt;/i&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;DaprDesigner is a visual modeler for Dapr.io&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Concepts</title>
+      <link>http://localhost:1313/docs/concepts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/concepts/</guid>
+      <description>&lt;h3 id=&#34;whats-daprdesigner&#34;&gt;What&amp;rsquo;s DaprDesigner? &lt;a href=&#34;#whats-daprdesigner&#34; class=&#34;anchor&#34; aria-hidden=&#34;true&#34;&gt;&lt;i class=&#34;material-icons align-middle&#34;&gt;link&lt;/i&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;DaprDesigner is a visual modeler for Dapr.io&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Installing DaprDesigner</title>
+      <link>http://localhost:1313/docs/installation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/installation/</guid>
+      <description>&lt;h3 id=&#34;whats-daprdesigner&#34;&gt;What&amp;rsquo;s DaprDesigner? &lt;a href=&#34;#whats-daprdesigner&#34; class=&#34;anchor&#34; aria-hidden=&#34;true&#34;&gt;&lt;i class=&#34;material-icons align-middle&#34;&gt;link&lt;/i&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;DaprDesigner is a visual modeler for Dapr.io&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Modeling your first Dapr Architecture</title>
+      <link>http://localhost:1313/docs/first_project/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/first_project/</guid>
+      <description>&lt;h3 id=&#34;whats-daprdesigner&#34;&gt;What&amp;rsquo;s DaprDesigner? &lt;a href=&#34;#whats-daprdesigner&#34; class=&#34;anchor&#34; aria-hidden=&#34;true&#34;&gt;&lt;i class=&#34;material-icons align-middle&#34;&gt;link&lt;/i&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;DaprDesigner is a visual modeler for Dapr.io&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Troubleshooting And FAQ</title>
+      <link>http://localhost:1313/docs/troubleshooting_and_faq/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/troubleshooting_and_faq/</guid>
+      <description>&lt;h3 id=&#34;whats-daprdesigner&#34;&gt;What&amp;rsquo;s DaprDesigner? &lt;a href=&#34;#whats-daprdesigner&#34; class=&#34;anchor&#34; aria-hidden=&#34;true&#34;&gt;&lt;i class=&#34;material-icons align-middle&#34;&gt;link&lt;/i&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;DaprDesigner is a visual modeler for Dapr.io&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Contributing to DaprDesigner</title>
+      <link>http://localhost:1313/docs/contributing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/contributing/</guid>
+      <description>&lt;h3 id=&#34;whats-daprdesigner&#34;&gt;What&amp;rsquo;s DaprDesigner? &lt;a href=&#34;#whats-daprdesigner&#34; class=&#34;anchor&#34; aria-hidden=&#34;true&#34;&gt;&lt;i class=&#34;material-icons align-middle&#34;&gt;link&lt;/i&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;DaprDesigner is a visual modeler for Dapr.io&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Roadmap</title>
+      <link>http://localhost:1313/docs/roadmap/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/roadmap/</guid>
+      <description>&lt;h3 id=&#34;whats-daprdesigner&#34;&gt;What&amp;rsquo;s DaprDesigner? &lt;a href=&#34;#whats-daprdesigner&#34; class=&#34;anchor&#34; aria-hidden=&#34;true&#34;&gt;&lt;i class=&#34;material-icons align-middle&#34;&gt;link&lt;/i&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;DaprDesigner is a visual modeler for Dapr.io&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Credits</title>
+      <link>http://localhost:1313/docs/credits/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/credits/</guid>
+      <description>&lt;h3 id=&#34;whats-daprdesigner&#34;&gt;What&amp;rsquo;s DaprDesigner? &lt;a href=&#34;#whats-daprdesigner&#34; class=&#34;anchor&#34; aria-hidden=&#34;true&#34;&gt;&lt;i class=&#34;material-icons align-middle&#34;&gt;link&lt;/i&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;DaprDesigner is a visual modeler for Dapr.io&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

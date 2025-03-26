@@ -29,19 +29,19 @@ hero:
 
   image:
     path: "images" # path to image under configured assets directory. default 'images'
-    filename: "lotus_docs_screenshot.png" # filename of your hero image (including file extension)
+    filename: "AppBlocks.svg" # filename of your hero image (including file extension) "lotus_docs_screenshot.png"
     alt: "Lotus Docs Screenshot" # Optional but recommended
     boxShadow: true # default 'false' (excludes .svg images)
     rounded: true # round the image corners? default 'false' (excludes .svg images)
 
   ctaButton:
     icon: rocket_launch
-    btnText: "Get Started"
-    url: "/docs/quickstart/#create-a-new-lotus-docs-site"
+    btnText: "Get started"
+    url: "/docs"
   cta2Button:
-    icon: construction
-    btnText: "In Development"
-    url: "https://github.com/colinwilson/lotusdocs"
+    icon: code
+    btnText: "See the code"
+    url: "https://github.com/daprtools"
 
   info: "Apache 2 Licensed"
 

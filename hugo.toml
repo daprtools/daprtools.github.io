@@ -2,6 +2,8 @@ baseURL = 'http://daprtools.github.io/'
 languageCode = 'en-us'
 title = 'DaprDesigner'
 contentDir = "content/en"
+enableEmoji = true
+enableGitInfo = true
 
 [module]
     [[module.imports]]
@@ -13,11 +15,22 @@ contentDir = "content/en"
 
 
 [params]
+  google_fonts = [
+    ["Inter", "300, 400, 600, 700"],
+    ["Fira Code", "500, 700"]
+  ]
+
+  sans_serif_font = "Inter"     # Default is System font
+  secondary_font  = "Inter"     # Default is System font
+  mono_font       = "Fira Code" # Default is System font
     
     [params.footer]
         copyright = "Copyright ©:2025: [RKVS Raman](https://github.com/rkvsraman). Eclipse Sirius and Dapr are trademarks of [Eclipse](https://eclipse.dev) and [Dapr](https://dapr.io) foundations respectively. Site built with [Hugo](https://gohugo.io) and [Lotus Docs](https://github.com/colinwilson/lotusdocs). "
 
 
     [params.social]
-        github = "daprtools"    
-  
+        github = "daprtools"   
+
+
+    [params.docs]     
+         descriptions = true  
