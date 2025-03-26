@@ -3,14 +3,36 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/docs/</loc>
-    <lastmod>2025-03-25T23:39:13+05:30</lastmod>
+    <lastmod>2025-03-26T16:54:26+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/docs/overview/</loc>
+    <lastmod>2025-03-26T16:54:26+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/docs/concepts/</loc>
+    <lastmod>2025-03-26T16:54:26+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/docs/installation/</loc>
+    <lastmod>2025-03-26T16:54:26+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/docs/first_project/</loc>
+    <lastmod>2025-03-26T16:54:26+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/docs/troubleshooting_and_faq/</loc>
+    <lastmod>2025-03-26T16:54:26+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/docs/contributing/</loc>
+    <lastmod>2025-03-26T16:54:26+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/docs/roadmap/</loc>
+    <lastmod>2025-03-26T16:54:26+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/docs/credits/</loc>
+    <lastmod>2025-03-26T16:54:26+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
   </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2025-03-25T23:39:13+05:30</lastmod>
+    <lastmod>2025-03-26T16:54:26+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
   </url>
